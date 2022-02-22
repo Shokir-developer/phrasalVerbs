@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{form.english}}</title>
+	<link rel="stylesheet" href="{% static 'semantic/semantic.min.css' %}">
+</head>
+<body>
+<div class="ui container">
+<h2>{{form.english}} - <span style="color: red;">{{form.uzbek}}</span></h2>
+<p>Definition: <span style="color: blue; font-size: 20px;">{{form.definition}}</span></p>
+<p>Example: <span style="font-size: 20px;">{{form.example}}</span></p>
+</div>
+
+
+</body>
+</html>
